@@ -14,7 +14,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.26.1",
+    "@clerk/nextjs": "^4.27.0",
     "@clerk/themes": "^1.7.9",
     "@planetscale/database": "^1.11.0",
     "@radix-ui/react-avatar": "^1.0.3",
@@ -27,17 +27,16 @@
     "bad-words": "^3.0.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "dotenv": "^16.3.1",
-    "drizzle-orm": "^0.28.6",
+    "drizzle-orm": "^0.29.0",
     "eslint": "8.53.0",
-    "eslint-config-next": "14",
+    "eslint-config-next": "14.0.2",
     "lucide-react": "^0.292.0",
-    "next": "14",
+    "next": "14.0.2",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-intersection-observer": "^9.5.2",
-    "sonner": "^1.0.0",
+    "react-intersection-observer": "^9.5.3",
+    "sonner": "^1.2.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.6",
     "zod": "^3.22.4"
@@ -51,7 +50,7 @@
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
     "@faker-js/faker": "^8.2.0",
-    "@types/bad-words": "^3.0.2",
-    "drizzle-kit": "^0.19.13"
+    "@types/bad-words": "^3.0.3",
+    "drizzle-kit": "^0.20.1"
   }
 }

@@ -1,14 +1,20 @@
-import * as dotenv from "dotenv";
-import type { Config } from "drizzle-kit";
+import { defineConfig } from "drizzle-kit";
 
-dotenv.config();
-
-export default {
+export default defineConfig({
   schema: "./src/db/schema.ts",
   driver: "mysql2",
   out: "./src/db",
   dbCredentials: {
-    connectionString: process.env.DATABASE_URL ?? "",
+    uri: process.env.DATABASE_URL ?? "",
   },
-  tablesFilter: ['followers','likes', 'notifications', 'reposts', 'threads', 'users']
-} satisfies Config;
+  tablesFilter: [
+    "followers",
+    "likes",
+    "notifications",
+    "reposts",
+    "threads",
+    "users",
+  ],
+  verbose: true,
+  strict: true,
+});
