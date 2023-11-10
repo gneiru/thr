@@ -25,13 +25,13 @@ export default function FollowButton({
     <Button
       onClick={(e) => {
         e.preventDefault();
-        toast.success(`${isFollowing ? "Unfollowed" : "Followed"} ${name}`);
-        startTransition(() => {
+        startTransition(async () => {
           if (isFollowing) {
-            unfollowUser(followerId, followingId, pathname);
+            await unfollowUser(followerId, followingId, pathname);
           } else {
-            followUser(followerId, followingId, pathname);
+            await followUser(followerId, followingId, pathname);
           }
+          toast.success(`${isFollowing ? "Unfollowed" : "Followed"} ${name}`);
         });
       }}
       variant="outline"
