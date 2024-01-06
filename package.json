@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.16",
-    "typescript": "5.2.2",
+    "typescript": "5.3.3",
     "tailwindcss": "3.4.1",
     "postcss": "8.4.31",
     "@types/node": "20.9.2",
