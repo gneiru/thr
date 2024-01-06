@@ -47,8 +47,8 @@
     "tailwindcss": "3.4.1",
     "postcss": "8.4.31",
     "@types/node": "20.9.2",
-    "@types/react": "18.2.37",
-    "@types/react-dom": "18.2.15",
+    "@types/react": "18.2.47",
+    "@types/react-dom": "18.2.18",
     "@faker-js/faker": "^8.2.0",
     "@types/bad-words": "^3.0.2",
     "drizzle-kit": "^0.20.1"
