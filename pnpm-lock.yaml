@@ -90,7 +90,7 @@ devDependencies:
     version: 8.2.0
   '@types/bad-words':
     specifier: ^3.0.2
-    version: 3.0.2
+    version: 3.0.3
   '@types/node':
     specifier: 20.9.2
     version: 20.9.2
@@ -1613,8 +1613,8 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@types/bad-words@3.0.2:
-    resolution: {integrity: sha512-u3EXRdg5OKj6EMKPr+OtfuRyNtvMJxmqkJb6+NVEylqgWPsFxPoWQfYUhX9tWYSvSMZYfPxT1OEDr/AZ13VXAQ==}
+  /@types/bad-words@3.0.3:
+    resolution: {integrity: sha512-jYdpTxDOJ+EENnsCwt8cOZhV/+4+qcwhks1igrOSg4zwwA17rsPqLsZpTo1l+OwViNu+5SPus0v5g7iGx+ofzA==}
     dev: true
 
   /@types/body-parser@1.19.2:
@@ -2170,7 +2170,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
 
   /class-variance-authority@0.7.0:
     resolution: {integrity: sha512-jFI8IQw4hczaL4ALINxqLEXQbWcNjoSkloa4IaufXCJr6QawJyw7tuRysRsrE8w2p/4gGaxKIt/hX3qz/IbD1A==}
@@ -3117,8 +3117,8 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -5128,7 +5128,7 @@ packages:
       source-map: 0.6.1
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
       - supports-color
